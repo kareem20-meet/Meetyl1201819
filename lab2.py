@@ -1,13 +1,2 @@
-import turtle 
-def square():
-	for i in range(4):
-	    turtle.forward(100)
-	    turtle.left(90)
-turtle.begin_fill()
-square()
-turtle.right(45)
-turtle.forward(90)
-turtle.left(100)
-turtle.forward(90)
-turtle.end_fill()
-turtle.mainloop
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+print(a)
