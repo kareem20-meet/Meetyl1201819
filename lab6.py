@@ -40,7 +40,6 @@ H.random_color()
 
 class Polygons(Turtle):
 	def __init__(self, length, numb):
-		Turtle.__init__(self)
 		self.length = length
 		self.angle = ((numb-2)*180)/numb
 		self.sides = numb
