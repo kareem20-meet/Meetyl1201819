@@ -11,8 +11,8 @@ class Ball(Turtle):
         self.color(color)
         self.speed(speed) 
 
-ball1 = Ball(30,'red',10)
-ball2 = Ball(20, 'blue',10)
+ball1 = Ball(30,'red',1)
+ball2 = Ball(20, 'blue',1)
 balls =[]
 balls.append(ball1)
 balls.append(ball2)

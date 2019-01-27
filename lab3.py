@@ -29,7 +29,7 @@ turtle.end_fill()
 turtle.mainloop
 
 '''
-
+"""
 import turtle
 turtle.speed(0)
 turtle.tracer(3)
@@ -42,5 +42,22 @@ while True:
 	turtle.right(90)
 	turtle.forward(70)
 	turtle.penup()
+	turtle.goto(0,0)
+turtle.mainloop()
+
+"""
+
+import turtle
+turtle.speed(0)
+turtle.tracer(2.5)
+while True:
+	turtle.left(.1)
+	turtle.pendown()
+	turtle.forward(175)
+	turtle.right(45)
+	turtle.forward(175)
+	turtle.right(90)
+	turtle.forward(70)
+	
 	turtle.goto(0,0)
 turtle.mainloop()
